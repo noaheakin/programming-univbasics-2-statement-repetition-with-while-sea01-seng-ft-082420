@@ -1,5 +1,6 @@
-count = 0
-while count < 3 do
-  puts "I am the #{count}, I love to count!"
-  count += 1
+count_down = 10
+while count_down <= 10 do
+  puts "#{count_down}"
+  count_down -= 1
 end
+puts "Happy New Year!"
